@@ -72,3 +72,13 @@
 
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
+>
+> ### 시간 초과 문제
+> 일반적인 2중 for문을 사용하여 문제를 접근하면
+> 배열은 데이터 양에 따라 원하는 데이터를 접근하기 까지 시간이 정비례하는 특성이 있다.
+> 따라서 시간초과 문제를 해결하기 위해
+> HashMap을 활용한다
+> key, value로 데이터를 나누고 검색할 때 key만 찾는 HashMap은 데이터의 양과 무관하게 일정한 속도를 보장할 수 있다.
+> 해당 로직은 아래의 링크를 참조하였다.
+>
+> ref : https://velog.io/@ljs0429777/%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EC%8A%A4-%EB%8B%AC%EB%A6%AC%EA%B8%B0-%EA%B2%BD%EC%A3%BC
